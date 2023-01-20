@@ -1,0 +1,17 @@
+{
+    "extends":["airbnb"],
+    "ignorePatterns": [
+        "/node_modules/*"
+      ],
+      "rules": {
+        "react/jsx-filename-extension": [2, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
+        "import/extensions":0,
+        "react/function-component-definition":0,
+        "max-len": [
+          "error",
+          {
+            "code": 170
+          }
+        ]
+      }
+}
