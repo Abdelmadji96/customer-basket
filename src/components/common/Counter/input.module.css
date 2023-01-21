@@ -1,0 +1,28 @@
+.counterCompoenet {
+  width: 90px;
+  height: 30px;
+  margin: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.counterCompoenet span:nth-child(2) {
+  width: 30px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.counterCompoenet button {
+  cursor: pointer;
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid #dedede;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counterCompoenet button:disabled {
+  opacity: 0.4;
+}
