@@ -1,0 +1,38 @@
+[
+  {
+    "key": 1,
+    "image": "product/french-bread-whole.jpeg",
+    "title": "whole french bread",
+    "description": "made in paris and destinated to the whole world",
+    "review": {
+      "totalStars": 5,
+      "stars": 4
+    },
+    "price": "1.00",
+    "ctaLabel": "ADD TO CART"
+  },
+  {
+    "key": 2,
+    "image": "product/fresh-swiss-milk.jpeg",
+    "title": "Fresh Suiss milk",
+    "description": "semi skimmed milk that comes straight from the alpes farmer",
+    "review": {
+      "totalStars": 5,
+      "stars": 3
+    },
+    "price": "1.15",
+    "ctaLabel": "ADD TO CART"
+  },
+  {
+    "key": 3,
+    "image": "product/butter.jpeg",
+    "title": "Butter",
+    "description": "produced by us to insure a high quality butter",
+    "review": {
+      "totalStars": 5,
+      "stars": 5
+    },
+    "price": "0.80",
+    "ctaLabel": "ADD TO CART"
+  }
+]
