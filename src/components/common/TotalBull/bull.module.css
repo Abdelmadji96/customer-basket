@@ -1,0 +1,15 @@
+.bullContainer {
+  text-align: right;
+}
+
+.fieldWrapper {
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.fieldLabel {
+  font-size: 18px;
+  color: #6b6b6b;
+}

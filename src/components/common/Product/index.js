@@ -10,7 +10,7 @@ const ProductComponent = ({
 }) => (
   <div className={styles.productContainer}>
     <div className={styles.imageWrapper}>
-      <img src={image} alt="product" title="product" />
+      <img src={image} alt={title} title={title} />
     </div>
     <div className={styles.contentWrapper}>
       <span>{title}</span>

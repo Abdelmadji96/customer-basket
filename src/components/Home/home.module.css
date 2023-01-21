@@ -1,4 +1,16 @@
-.homeContainer{
+.homeContainer {
+  display: flex;
+  justify-content: space-around;
   padding-top: 4rem;
   text-align: center;
+  margin: 0 4rem;
+}
+
+.homeContainer>div {
+  width: 40%;
+}
+
+.productsContainer {
+  display: flex;
+  flex-direction: column;
 }

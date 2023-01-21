@@ -1,14 +1,14 @@
 import React from 'react';
 
-import ProductComponent from '../common/Product';
 import data from './products.json';
 import styles from './home.module.css';
+import BasketComponent from './helpers/BasketComponent';
+import ProductsComponent from './helpers/ProductsComponent';
 
 const HomePageComponent = () => (
   <div className={styles.homeContainer}>
-    {data && data.map((product) => (
-      <ProductComponent key={product.title} data={product} />
-    ))}
+    <ProductsComponent data={data} />
+    <BasketComponent />
   </div>
 );
 
