@@ -1,10 +1,9 @@
 import React from 'react';
-
-import './App.css';
+import HomePageComponent from './components/Home';
 
 const App = () => (
-  <div className="App">
-    Hello
+  <div>
+    <HomePageComponent />
   </div>
 );
 
