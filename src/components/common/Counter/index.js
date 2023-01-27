@@ -3,22 +3,21 @@ import PropTypes from 'prop-types';
 
 import styles from './input.module.css';
 
-const Counter = ({
-  minNumber, maxNumber
-}) => {
-  console.log('minNumber', minNumber, maxNumber);
-  return (
-    <div className={styles.counterCompoenet}>
-      <button type="button">&minus;</button>
-      <span>3</span>
-      <button type="button">&#43;</button>
-    </div>
-  );
-};
+const Counter = ({ quantity, incrementQuantity, decrementQuantity }) => (
+  <div className={styles.counterCompoenet}>
+    <button type="button" onClick={decrementQuantity}>&minus;</button>
+    <span>{quantity}</span>
+    <button type="button" onClick={incrementQuantity}>&#43;</button>
+  </div>
+);
 
 Counter.propTypes = {
-  minNumber: PropTypes.number.isRequired,
-  maxNumber: PropTypes.number.isRequired,
+  quantity: PropTypes.number,
+  incrementQuantity: PropTypes.func.isRequired,
+  decrementQuantity: PropTypes.func.isRequired,
+};
+Counter.defaultProps = {
+  quantity: 0,
 };
 
 export default Counter;
